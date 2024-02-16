@@ -25,6 +25,6 @@ maven {url = "https://maven.terraformersmc.com"}
 
 // Forge
 maven {url = "https://maven.blamejared.com"}
-maven {url = "https://maven.shedaniel.me"}
+mavezzn {url = "https://maven.shedaniel.me"}
 ```
 
