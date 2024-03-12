@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.crypticverse.betterbiomes",
+    "module": "BetterBiomes-Fabric",
+    "version": "2.1.5.0-1.20.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "13.0.121"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "11.0.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "BetterBiomes-Fabric-2.1.5.0-1.20.4.jar",
+          "url": "BetterBiomes-Fabric-2.1.5.0-1.20.4.jar",
+          "size": 2896365,
+          "sha512": "038c77b1ef6ded278a49c147a908c32b19f51ccf3914a01600c8daa4f50143971fc159bbb7e43cb68b23742341c96fe2fe3e910f45cb07ae3ee97f63f3f6c851",
+          "sha256": "dc67ee918edf3b15b27a555a3969a5c38e7d2408952f29cf2f8916c9997454b9",
+          "sha1": "3bd16fdb4431c3f15851df6adfa7b1547a3ec0d5",
+          "md5": "834029325da018c9cd7eeb58c096ad7f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "13.0.121"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "11.0.9"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.15.7"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.96.4+1.20.4"
+          }
+        },
+        {
+          "group": "com.bookkeepersmc",
+          "module": "Notebook-api-fabric-1.20.4",
+          "version": {
+            "requires": "1.1.10+1.20.4"
+          }
+        },
+        {
+          "group": "com.github.glitchfiend",
+          "module": "TerraBlender-fabric",
+          "version": {
+            "requires": "1.20.4-3.3.0.12"
+          }
+        },
+        {
+          "group": "com.terraformersmc.terraform-api",
+          "module": "terraform-wood-api-v1",
+          "version": {
+            "requires": "9.0.0"
+          }
+        },
+        {
+          "group": "me.shedaniel",
+          "module": "RoughlyEnoughItems-fabric",
+          "version": {
+            "requires": "14.0.688"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "BetterBiomes-Fabric-2.1.5.0-1.20.4.jar",
+          "url": "BetterBiomes-Fabric-2.1.5.0-1.20.4.jar",
+          "size": 2896365,
+          "sha512": "038c77b1ef6ded278a49c147a908c32b19f51ccf3914a01600c8daa4f50143971fc159bbb7e43cb68b23742341c96fe2fe3e910f45cb07ae3ee97f63f3f6c851",
+          "sha256": "dc67ee918edf3b15b27a555a3969a5c38e7d2408952f29cf2f8916c9997454b9",
+          "sha1": "3bd16fdb4431c3f15851df6adfa7b1547a3ec0d5",
+          "md5": "834029325da018c9cd7eeb58c096ad7f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "BetterBiomes-Fabric-2.1.5.0-1.20.4-sources.jar",
+          "url": "BetterBiomes-Fabric-2.1.5.0-1.20.4-sources.jar",
+          "size": 240597,
+          "sha512": "f2588bb909ad009b1346bb9bfda21afea3237eeffa5d13547f65c56664d9644b7b2d75f209738d9610bfeaa4d2cc635ce75f6afc3892a4e970465b52bf06daea",
+          "sha256": "0488b4e2924d6aeb16b8571edcc8c04f6f5e7e08eaa1d1ad837f2f67e9bc4985",
+          "sha1": "c0511a2a4a463aff188d6774c526649549a7bd89",
+          "md5": "9a91c7a3ca15e078ca3eca35838ffc31"
+        }
+      ]
+    }
+  ]
+}
